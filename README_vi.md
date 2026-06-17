@@ -2,8 +2,6 @@
 
 > Tài liệu tiếng Việt đầy đủ. Xem [README.md](README.md) cho phiên bản tiếng Anh.
 
-Nội dung bên dưới là README gốc từ Hackathon CX Together 2026.
-
 ---
 
 # ScoreSight — Alternative-Data Credit Scoring for MSMEs
