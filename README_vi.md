@@ -14,7 +14,7 @@
 
 **~70% MSME Việt Nam** không tiếp cận được vốn chính thức: không có lịch sử CIC, không báo cáo kiểm toán, giao dịch chủ yếu tiền mặt / ví điện tử. Mô hình tín dụng truyền thống từ chối họ ngay từ đầu vì *thiếu dữ liệu*, chứ không phải vì *rủi ro cao*.
 
-**Insight:** Doanh nghiệp micro không xấu hơn về tín dụng — chúng chỉ **ít dữ liệu hơn**. Dữ liệu được tạo ra từ chính dự án này xác nhận điều này:
+**Insight:** Doanh nghiệp micro không xấu hơn về tín dụng - chúng chỉ **ít dữ liệu hơn**. Dữ liệu được tạo ra từ chính dự án này xác nhận điều này:
 
 > Tỷ lệ vỡ nợ gần như **bằng nhau** giữa micro/small/medium (10.8% / 9.4% / 8.9%), nhưng độ phủ dữ liệu **chênh lệch lớn** (micro: 57% thin-file, medium: 61% thick-file).
 
