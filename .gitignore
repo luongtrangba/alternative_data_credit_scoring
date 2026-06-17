@@ -1,0 +1,54 @@
+# ── Python ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+
+# ── Virtual environments ───────────────────────────────────────
+.venv/
+venv/
+env/
+.Python
+
+# ── IDE / Editor ───────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── OS ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Environment & secrets ──────────────────────────────────────
+.env
+.env.local
+.secrets
+*.pem
+*.key
+*.crt
+
+# ── Generated data artifacts (regenerate with pipeline) ────────
+data/sme_altdata.parquet
+data/sme_scored_dsr.parquet
+configs/weights_refined.json
+
+# ── Model artifacts (regenerate with training pipeline) ────────
+t4_training/models/
+t4_training/output/
+t3_features/output/
+
+# ── Logs & temporary files ─────────────────────────────────────
+*.log
+*.tmp
+*.sqlite
+*.db
+
+# ── Claude Code ────────────────────────────────────────────────
+.claude/

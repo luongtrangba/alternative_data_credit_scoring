@@ -1,0 +1,194 @@
+{
+  "business_age_months": {
+    "source": "identity",
+    "direction": "high_good",
+    "default_weight": 0.6,
+    "signal_strength": 0.4
+  },
+  "num_employees": {
+    "source": "identity",
+    "direction": "high_good",
+    "default_weight": 0.5,
+    "signal_strength": 0.4
+  },
+  "shopee_gmv_3m": {
+    "source": "ecommerce",
+    "direction": "high_good",
+    "default_weight": 0.7,
+    "signal_strength": 0.4
+  },
+  "gmv_growth_12m": {
+    "source": "ecommerce",
+    "direction": "high_good",
+    "default_weight": 0.8,
+    "signal_strength": 0.48
+  },
+  "order_count_monthly": {
+    "source": "ecommerce",
+    "direction": "high_good",
+    "default_weight": 0.6,
+    "signal_strength": 0.38
+  },
+  "return_rate": {
+    "source": "ecommerce",
+    "direction": "high_bad",
+    "default_weight": 0.7,
+    "signal_strength": 0.45
+  },
+  "seller_rating": {
+    "source": "ecommerce",
+    "direction": "high_good",
+    "default_weight": 0.5,
+    "signal_strength": 0.4
+  },
+  "momo_net_cashflow_avg": {
+    "source": "payment",
+    "direction": "high_good",
+    "default_weight": 0.8,
+    "signal_strength": 0.45
+  },
+  "pos_volume_6m": {
+    "source": "payment",
+    "direction": "high_good",
+    "default_weight": 0.7,
+    "signal_strength": 0.42
+  },
+  "supplier_payment_regularity": {
+    "source": "payment",
+    "direction": "high_good",
+    "default_weight": 1.0,
+    "signal_strength": 0.6
+  },
+  "payroll_regularity": {
+    "source": "payment",
+    "direction": "high_good",
+    "default_weight": 0.9,
+    "signal_strength": 0.52
+  },
+  "active_days_per_month": {
+    "source": "payment",
+    "direction": "high_good",
+    "default_weight": 0.5,
+    "signal_strength": 0.4
+  },
+  "invoice_revenue_12m": {
+    "source": "einvoice",
+    "direction": "high_good",
+    "default_weight": 0.9,
+    "signal_strength": 0.45
+  },
+  "invoice_revenue_growth": {
+    "source": "einvoice",
+    "direction": "high_good",
+    "default_weight": 1.0,
+    "signal_strength": 0.58
+  },
+  "unique_buyer_count": {
+    "source": "einvoice",
+    "direction": "high_good",
+    "default_weight": 0.9,
+    "signal_strength": 0.5
+  },
+  "vat_filing_on_time_ratio": {
+    "source": "einvoice",
+    "direction": "high_good",
+    "default_weight": 0.8,
+    "signal_strength": 0.5
+  },
+  "invoice_cancel_rate": {
+    "source": "einvoice",
+    "direction": "high_bad",
+    "default_weight": 0.6,
+    "signal_strength": 0.45
+  },
+  "electricity_consumption_avg": {
+    "source": "utility",
+    "direction": "high_good",
+    "default_weight": 0.5,
+    "signal_strength": 0.35
+  },
+  "electricity_growth": {
+    "source": "utility",
+    "direction": "high_good",
+    "default_weight": 0.6,
+    "signal_strength": 0.42
+  },
+  "utility_payment_on_time": {
+    "source": "utility",
+    "direction": "high_good",
+    "default_weight": 0.7,
+    "signal_strength": 0.45
+  },
+  "shipment_count_monthly": {
+    "source": "logistics",
+    "direction": "high_good",
+    "default_weight": 0.5,
+    "signal_strength": 0.35
+  },
+  "delivery_success_rate": {
+    "source": "logistics",
+    "direction": "high_good",
+    "default_weight": 0.6,
+    "signal_strength": 0.42
+  },
+  "logistics_return_rate": {
+    "source": "logistics",
+    "direction": "high_bad",
+    "default_weight": 0.6,
+    "signal_strength": 0.42
+  },
+  "google_review_count": {
+    "source": "digital_footprint",
+    "direction": "high_good",
+    "default_weight": 0.3,
+    "signal_strength": 0.25
+  },
+  "google_avg_rating": {
+    "source": "digital_footprint",
+    "direction": "high_good",
+    "default_weight": 0.3,
+    "signal_strength": 0.28
+  },
+  "facebook_page_age_months": {
+    "source": "digital_footprint",
+    "direction": "high_good",
+    "default_weight": 0.3,
+    "signal_strength": 0.25
+  },
+  "facebook_engagement_rate": {
+    "source": "digital_footprint",
+    "direction": "high_good",
+    "default_weight": 0.2,
+    "signal_strength": 0.2
+  },
+  "buyer_diversity_score": {
+    "source": "graph",
+    "direction": "high_good",
+    "default_weight": 0.8,
+    "signal_strength": 0.52
+  },
+  "supplier_diversity_score": {
+    "source": "graph",
+    "direction": "high_good",
+    "default_weight": 0.6,
+    "signal_strength": 0.45
+  },
+  "pagerank_score": {
+    "source": "graph",
+    "direction": "high_good",
+    "default_weight": 0.5,
+    "signal_strength": 0.38
+  },
+  "network_default_exposure": {
+    "source": "graph",
+    "direction": "high_bad",
+    "default_weight": 0.9,
+    "signal_strength": 0.52
+  },
+  "shared_device_risk_flag": {
+    "source": "graph",
+    "direction": "high_bad",
+    "default_weight": 0.7,
+    "signal_strength": 0.3
+  }
+}

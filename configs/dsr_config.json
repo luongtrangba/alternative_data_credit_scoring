@@ -1,0 +1,22 @@
+{
+  "_comment": "Cấu hình T3 · DSR & IV. Ngưỡng phân nhóm và tham số hiệu chỉnh trọng số.",
+  "dsr_thresholds": {
+    "thin_max": 0.40,
+    "semi_max": 0.70
+  },
+  "weight_refinement": {
+    "_doc": "w_refined = domain_weight * clip(IV / median_IV, mult_min, mult_max). IV bị cap để không feature nào lấn át.",
+    "iv_cap": 0.5,
+    "mult_min": 0.3,
+    "mult_max": 3.0
+  },
+  "iv": {
+    "_doc": "Ngưỡng IV: feature < drop_threshold coi như vô dụng, đề xuất loại.",
+    "bins": 10,
+    "drop_threshold": 0.02
+  },
+  "alt_data_sources": [
+    "ecommerce", "payment", "einvoice", "utility",
+    "logistics", "digital_footprint", "graph"
+  ]
+}

@@ -1,0 +1,35 @@
+feature,source,gen_signal,iv,strength
+invoice_revenue_growth,einvoice,0.58,0.38199022564728025,mạnh
+supplier_payment_regularity,payment,0.6,0.3784198275956124,mạnh
+buyer_diversity_score,graph,0.52,0.29182860452944254,trung bình
+gmv_growth_12m,ecommerce,0.48,0.23582582903392177,trung bình
+unique_buyer_count,einvoice,0.5,0.21521818515634655,trung bình
+payroll_regularity,payment,0.52,0.21351792371727749,trung bình
+network_default_exposure,graph,0.52,0.19480775298832445,trung bình
+supplier_diversity_score,graph,0.45,0.1801714142537661,trung bình
+pagerank_score,graph,0.38,0.17577778772457775,trung bình
+return_rate,ecommerce,0.45,0.16819490789610975,trung bình
+vat_filing_on_time_ratio,einvoice,0.5,0.16263299488216615,trung bình
+invoice_cancel_rate,einvoice,0.45,0.1469140585267657,trung bình
+electricity_growth,utility,0.42,0.13522068439781876,trung bình
+momo_net_cashflow_avg,payment,0.45,0.12389461387566172,trung bình
+seller_rating,ecommerce,0.4,0.11758621452811546,trung bình
+utility_payment_on_time,utility,0.45,0.1068272956708087,trung bình
+logistics_return_rate,logistics,0.42,0.1053626035949494,trung bình
+invoice_revenue_12m,einvoice,0.45,0.10466221151611906,trung bình
+shopee_gmv_3m,ecommerce,0.4,0.10227880837883799,trung bình
+active_days_per_month,payment,0.4,0.10118744638775906,trung bình
+google_review_count,digital_footprint,0.25,0.09171207164786788,yếu
+order_count_monthly,ecommerce,0.38,0.09167482396671375,yếu
+delivery_success_rate,logistics,0.42,0.08550710905979049,yếu
+pos_volume_6m,payment,0.42,0.07494158294959112,yếu
+electricity_consumption_avg,utility,0.35,0.0694289850004929,yếu
+facebook_page_age_months,digital_footprint,0.25,0.06736887803122137,yếu
+shipment_count_monthly,logistics,0.35,0.06381853011325372,yếu
+google_avg_rating,digital_footprint,0.28,0.04148746740687044,yếu
+business_age_months,identity,0.4,0.02708255248222341,yếu
+facebook_engagement_rate,digital_footprint,0.2,0.025374807351238024,yếu
+industry,firmographic,,0.007664797492326525,vô dụng
+shared_device_risk_flag,graph,0.3,0.005844637536126589,vô dụng
+num_employees,identity,0.4,0.005049785911976665,vô dụng
+region,firmographic,,0.001415093362618841,vô dụng

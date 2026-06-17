@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=75.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scoresight"
+version = "1.0.0"
+description = "Alternative-data credit scoring for MSMEs — no CIC/bureau required"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [
+    {name = "Luong Trang", email = "luongtrangba@gmail.com"},
+]
+keywords = ["credit-scoring", "alternative-data", "fintech", "msme", "lightgbm"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "pyarrow>=17.0",
+    "matplotlib>=3.9",
+    "scikit-learn>=1.5",
+    "lightgbm>=4.5",
+    "shap>=0.46",
+    "fastapi>=0.115",
+    "uvicorn>=0.30",
+    "pydantic>=2.9",
+    "joblib>=1.4",
+]
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.35", "requests>=2.32"]
+dev = [
+    "pytest>=8.0",
+    "httpx>=0.27",
+    "ruff>=0.8",
+]
+all = ["scoresight[ui,dev]"]
+
+[project.urls]
+Repository = "https://github.com/luongtrangba/alternative_data_credit_scoring"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/scoresight/data_generator.py" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
