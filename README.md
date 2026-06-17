@@ -12,7 +12,7 @@
 
 ## Problem Statements
 
-~70% of Vietnamese MSMEs cannot access formal credit — not because they are high-risk, but because they lack traditional financial data (no CIC history, no audited statements, mostly cash/e-wallet transactions). Traditional models reject them at the gate due to **missing data, not high risk**.
+~70% of Vietnamese MSMEs cannot access formal credit - not because they are high-risk, but because they lack traditional financial data (no CIC history, no audited statements, mostly cash/e-wallet transactions). Traditional models reject them at the gate due to **missing data, not high risk**.
 
 **Key insight from our data:** Default rates are nearly identical across micro/small/medium enterprises (10.8% / 9.4% / 8.9%), but data coverage differs dramatically (micro: 57% thin-file vs medium: 61% thick-file). **Size does not determine risk — data sufficiency does.**
 
