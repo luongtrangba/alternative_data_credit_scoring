@@ -13,7 +13,9 @@ services:
     build: .
     command: >
       sh -c "pip install --no-cache-dir streamlit requests
-      && streamlit run ui/streamlit_app.py --server.port=8501 --server.address=0.0.0.0"
+      && streamlit run t6_ui/streamlit_app.py --server.port=8501 --server.address=0.0.0.0"
+    volumes:
+      - ./t6_ui:/app/t6_ui
     ports:
       - "8501:8501"
     environment:
