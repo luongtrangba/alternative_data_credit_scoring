@@ -10,7 +10,7 @@
 
 ---
 
-## The Problem
+## Problem Statements
 
 ~70% of Vietnamese MSMEs cannot access formal credit — not because they are high-risk, but because they lack traditional financial data (no CIC history, no audited statements, mostly cash/e-wallet transactions). Traditional models reject them at the gate due to **missing data, not high risk**.
 
