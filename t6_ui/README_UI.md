@@ -1,7 +1,5 @@
 # ScoreSight UI Demo
 
-This folder adds a lightweight Streamlit dashboard for the hackathon demo.
-
 The UI is designed around the mentor feedback: the model should not only return a score, but should also show real risk warning, explainability, data sufficiency, business impact, bank integration readiness and role-based access control.
 
 ## Main screens
