@@ -79,14 +79,14 @@ This tab explains how the model can be integrated into bank systems:
 
 The repository already has a FastAPI scoring service in `t5_serving/app.py`. The UI wraps the existing scoring logic and presents outputs that bank users care about:
 
-1. **Credit score** — 300-850 score from calibrated PD.
-2. **Risk warning** — approve, manual review or decline; plus hard fraud warning if applicable.
-3. **Data Sufficiency Rate** — thin/semi/thick borrower profile.
-4. **Suggested credit limit** — adjusted by MSME size and DSR confidence.
-5. **SHAP top reasons** — explainability for internal users and admin/audit.
-6. **Source coverage** — shows which alternative data sources are present or missing.
-7. **Business impact** — estimated TAT/SLA saving, approval lift and NPL guardrail messaging.
-8. **Role-based access** — different information exposure for customer, internal bank user and admin/audit.
+1. **Credit score** - 300-850 score from calibrated PD.
+2. **Risk warning** - approve, manual review or decline; plus hard fraud warning if applicable.
+3. **Data Sufficiency Rate** - thin/semi/thick borrower profile.
+4. **Suggested credit limit** - adjusted by MSME size and DSR confidence.
+5. **SHAP top reasons** - explainability for internal users and admin/audit.
+6. **Source coverage** - shows which alternative data sources are present or missing.
+7. **Business impact** - estimated TAT/SLA saving, approval lift and NPL guardrail messaging.
+8. **Role-based access** - different information exposure for customer, internal bank user and admin/audit.
 
 ## Run local mode
 
