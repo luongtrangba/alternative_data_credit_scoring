@@ -124,7 +124,7 @@ Trụ Maturity được tách riêng và **không đưa vào bảng ranking mứ
 | **Công thức** | `Leverage = Tổng nợ / Vốn chủ sở hữu` |
 | **Logic chấm** | ≤1 → 60 · 1–2 → 47 · 2–3 → 30 · 3–4 → 13 · >4 → 0 |
 | **Nguồn dữ liệu** | BCTC do KH upload |
-| **Reason Code** | F02 — Đòn bẩy cao |
+| **Reason Code** | F02 - Đòn bẩy cao |
 
 #### Biến 3 — EBITDA Margin — 55 điểm · `TRAD`
 
